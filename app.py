@@ -7,13 +7,13 @@ from lime.lime_text import LimeTextExplainer
 model = joblib.load("mbti_model_calibrated.pkl")
 class_names = model.classes_
 
-st.title("Advanced MBTI Personality Predictor")
+st.title("MBTI Personality Predictor")
 
 st.write(
     """
-Enter your text and get a prediction of your MBTI personality type.
-You'll also see which words influenced the prediction.
-"""
+    Enter your text and get a prediction of your MBTI personality type.
+    You'll also see which words influenced the prediction.
+    """
 )
 
 user_input = st.text_area("Your text:", height=200)
