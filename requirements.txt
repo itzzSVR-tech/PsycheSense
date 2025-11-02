@@ -4,3 +4,4 @@ joblib
 lime
 numpy
 pandas
+plotly

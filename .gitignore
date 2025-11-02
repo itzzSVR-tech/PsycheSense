@@ -1,21 +1,143 @@
 # Virtual environment
 env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
 # Data files
 *.csv
-
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# IDE files
-.vscode/
-.idea/
-
-# macOS
-.DS_Store
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.h5
+*.hdf5
 
 # Model files
 *.pkl
+*.pickle
+*.joblib
+*.model
+*.h5
+*.pb
+*.onnx
+*.pt
+*.pth
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.pyre/
+
+# Streamlit
+.streamlit/
+*.streamlit/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.tmp
+*.temp
+desktop.ini
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Machine Learning specific
+*.joblib
+checkpoints/
+models/checkpoints/
+wandb/
+mlruns/
+.neptune/
+tensorboard_logs/
+lightning_logs/
+
+# Data directories (uncomment if you want to ignore data folders)
+# data/
+# datasets/
+# raw_data/
+# processed_data/
